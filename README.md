@@ -15,7 +15,7 @@ If you use this code please cite the paper above.
 ## Installation
 
  1. Clone repository to your local PC: `git clone https://github.com/tomviering/RiskMonotonicity.git`
- 2. (Optional) Download and put the [export_fig](https://nl.mathworks.com/matlabcentral/fileexchange/23629-export_fig) package in the folder export_fig under the same folder as the other files. Include it in your Matlab path by typing `addpath export_fig'.
+ 2. (Optional) Download and put the [export_fig](https://nl.mathworks.com/matlabcentral/fileexchange/23629-export_fig) package in the folder export_fig under the same folder as the other files. Include it in your Matlab path by typing `addpath export_fig`.
 
 ## Files
 ### main.m
