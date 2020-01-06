@@ -1,6 +1,7 @@
 # Minimizers of the Empirical Risk and Risk Monotonicity
 
 This git contains all files necessary to reproduce the results of the paper:
+
 [https://papers.nips.cc/paper/8966-minimizers-of-the-empirical-risk-and-risk-monotonicity.pdf](https://papers.nips.cc/paper/8966-minimizers-of-the-empirical-risk-and-risk-monotonicity.pdf)
 
 Minimizers of the Empirical Risk and Risk Monotonicity
