@@ -1,8 +1,14 @@
 function [R,true_risk_opt] = do_exp_general(n, q, lambda, loss)
+% Inputs:
 % n = number of simulated samples
 % q = probability of observing a
-% lambda = regularization parameter
-% loss = loss function
+% lambda = regularization parameter (only implemented for squared loss!)
+% loss = loss function: 'sqr' for squared loss, 'abs' for absolute loss
+%
+% Outputs:
+% R = learning curve
+% true_risk_opt = the best risk we can achieve using this class 
+%                 note this ignores any regularization
 
 R = zeros(n,1);
 

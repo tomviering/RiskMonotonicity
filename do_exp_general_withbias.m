@@ -1,8 +1,13 @@
 function [R,true_risk_opt] = do_exp_general_withbias(n, X, Y, P)
+% Inputs:
 % n = number of simulated samples
 % X = marginal samples
 % Y = target values
 % P = probability of observing said samples
+%
+% Outputs:
+% R = learning curve
+% true_risk_opt = the best risk we can achieve using this class
 
 R = zeros(n,1);
 
